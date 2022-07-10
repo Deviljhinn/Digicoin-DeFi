@@ -49,8 +49,8 @@
   margin: 2%;
   font-size: 1.2rem;
   background-color: #ffffff;
-  opacity: 0.6;
-  border-radius: 1em;
+  opacity: 0.75;
+  border-radius: 10em 5em 17em;
   padding: 10px;
 }
 
@@ -62,8 +62,10 @@
   color: #ffffff;
   font-size: 15px;
   justify-content: space-between;
-  padding: 5px;
-  width: 100px;
+  flex-direction: row;
+  padding: 10px;
+  opacity: 85%;
+  width: 175px;
   cursor: pointer;
   margin: 2%;
 }
