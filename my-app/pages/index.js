@@ -487,21 +487,19 @@ export default function Home() {
 
 
     <div>
-      <div className="imagebg">
-      </div>
       <Head>
         <title>Digicoin DeFi</title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/titleimg.gif" />
-      </Head><body>
+      </Head>
       <div className={styles.main}>
         <div>
-          <center><h1 className={styles.title}>Welcome to Digicoin DeFi Exchange!</h1>
+          <h1 className={styles.title}>Welcome to Digicoin DeFi Exchange!</h1>
           <div className={styles.description}>
             Exchange Ethereum &#60;&#62; Digicoin DeFi Tokens
-          </div></center>
+          </div>
           
-          <div class="btns">
+          <div>
             <button
               className={styles.button}
               onClick={() => {
@@ -524,7 +522,7 @@ export default function Home() {
         <div>
           <img className={styles.image} src="./cryptodev2.png" />
         </div>
-      </div></body>
+      </div>
 
       <footer className={styles.footer}>
         Made with &#10084; by macarory
